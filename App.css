@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.title {
+  font-size: 40px;
+  color: skyblue;
+  margin-bottom: 50px
+}
+
+.counter {
+  align-items: center;
+}
+
+.counterDisplay {
+  height: 200px;
+  width: 200px;
+  margin-bottom: 50px;
+  margin-left: 34px;
+  background-color: whitesmoke;
+  border-radius: 150px;
+  }
+h2 {
+  color: rgb(57, 103, 255);
+  font-size: 3em;
+  padding-top: 50px;
+}
+
+button {
+  height: 3em;
+  width: 5em;
+  background-color: grey;
+  color: white;
+  font-size: 27px;
+  cursor: pointer; 
+}
