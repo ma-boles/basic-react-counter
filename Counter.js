@@ -15,14 +15,14 @@ export default function Counter () {
     return (
         <div className="counter">
       
-        <h1 className="title">Basic Counter</h1>
+            <h1 className="title">Basic Counter</h1>
         
-        <div className="counterDisplay">
-            <h2>{count}</h2>
-        </div>
+            <div className="counterDisplay">
+                <h2>{count}</h2>
+            </div>
         
-        <button onClick={minus}>-</button>
-        <button onClick={add}>+</button>
+            <button onClick={minus}>-</button>
+            <button onClick={add}>+</button>
         </div>
 
     )
